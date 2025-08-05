@@ -1,0 +1,120 @@
+# config/forecast_scenarios.yaml
+
+##########################
+# EDC Forecasts
+##########################
+
+- name: "Q2_2024_edc_basecase"
+  forecaster: "edc"
+  file_name: "Q2-2024 Hourly Data Base Case.xlsx"
+  folder_name: "EDC Q2 2024 Forecast Base Case Data"
+  year_range: [2024, 2038]
+  is_active: false
+  data_structure: "multiple_worksheets_YYYY"
+  dst_type: "No_DST"
+  stochastic_seeds: 50
+  stochastic_seeds_used: 3
+
+- name: "Q3_2024_edc_basecase"
+  forecaster: "edc"
+  file_name: "Q3-2024 Hourly Data Base Case.xlsx"
+  folder_name: "EDC Q3 2024 Forecast Base Case Data"
+  year_range: [2024, 2038]
+  is_active: false
+  data_structure: "multiple_worksheets_YYYY"
+  dst_type: "No_DST"
+  stochastic_seeds: 50
+  stochastic_seeds_used: 3
+
+- name: "Q4_2024_edc_basecase"
+  forecaster: "edc"
+  file_name: "Q4-2024 Hourly Data Base Case.xlsx"
+  folder_name: "EDC Q2 2025 Forecast Base Case Data"
+  year_range: [2024, 2038]
+  is_active: false
+  data_structure: "multiple_worksheets_YYYY"
+  dst_type: "No_DST"
+  stochastic_seeds: 50
+  stochastic_seeds_used: 3
+
+- name: "Q4_2024_edc_negativernewables_data"
+  forecaster: "edc"
+  file_name: 'Q4-2024 Hourly Data Negative Renewables Case.xlsx'
+  folder_name: "Q4-2024 Hourly Data Negative Renewables Case"
+  year_range: [2024, 2038]
+  is_active: false
+  data_structure: "multiple_worksheets_YYYY"
+  dst_type: "No_DST"
+  stochastic_seeds: 50
+  stochastic_seeds_used: 3
+
+- name: "Q1_2025_edc_basecase"
+  forecaster: "edc"
+  file_name: "Q1-2025 Hourly Data Base Case.xlsx"
+  folder_name: "EDC Q1 2025 Forecast Base Case Data"
+  year_range: [2025, 2039]
+  is_active: false
+  data_structure: "multiple_worksheets_YYYY"
+  dst_type: "No_DST"
+  stochastic_seeds: 50
+  stochastic_seeds_used: 3
+
+- name: "Q2_2025_edc_basecase"
+  forecaster: "edc"
+  file_name: "Q2-2025 Hourly Data Base Case.xlsx"
+  folder_name: "EDC Q2 2025 Forecast Base Case Data"
+  year_range: [2025, 2039]
+  is_active: true
+  data_structure: "multiple_worksheets_YYYY"
+  dst_type: "No_DST"
+  stochastic_seeds: 50
+  stochastic_seeds_used: 3
+
+##########################
+# Similan Forecasts
+##########################
+
+- name: "Q3_2024_similan_rem_data"
+  forecaster: "similan"
+  file_name: "Q3-2024 Hourly Data REM Case.xlsx"
+  folder_name: "similan Q3 2024 Forecast REM Data"
+  year_range: [2024, 2048]
+  is_active: false
+  data_structure: "single_worksheet_Hourly"
+  dst_type: "No_DST"
+  stochastic_seeds: 1
+  stochastic_seeds_used: 1
+
+- name: "Q3_2024_similan_base_data"
+  forecaster: "similan"
+  file_name: "Q3-2024 Hourly Data Base Case.xlsx"
+  folder_name: "similan Q3 2024 Forecast Base Data"
+  year_range: [2024, 2048]
+  is_active: false
+  data_structure: "single_worksheet_Hourly"
+  dst_type: "No_DST"
+  stochastic_seeds: 1
+  stochastic_seeds_used: 1
+
+- name: "Q3_2024_similan_cer_data"
+  forecaster: "similan"
+  file_name: "Q3-2024 Hourly Data CER Case.xlsx"
+  folder_name: "similan Q3 2024 Forecast CER Data"
+  year_range: [2024, 2048]
+  is_active: false
+  data_structure: "single_worksheet_Hourly"
+  dst_type: "No_DST"
+  stochastic_seeds: 1
+  stochastic_seeds_used: 1
+
+- name: "Q3_2024_similan_lowcarbon_data"
+  forecaster: "similan"
+  file_name: "Q3-2024 Hourly Data LowCarbon Case.xlsx"
+  folder_name: "similan Q3 2024 Forecast LowCarbon Data"
+  year_range: [2024, 2048]
+  is_active: false
+  data_structure: "single_worksheet_Hourly"
+  dst_type: "No_DST"
+  stochastic_seeds: 1
+  stochastic_seeds_used: 1
+
