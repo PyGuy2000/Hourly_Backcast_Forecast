@@ -1,0 +1,91 @@
+--- Testing print_directory_tree ---
+Hourly_Backcast_Forecast/
+├── .git/
+├── base_path_processed_data/
+├── docs/
+│   └── CROSS_PLATFORM_USAGE.md
+├── environment.yml
+├── forecaster_config.json
+├── inputs/
+│   ├── AB_Historical_Prices/
+│   │   └── test.py
+│   ├── AESO_Tariff_Data/
+│   │   ├── aeso_tariff_appendix_one_bill_estimator.csv
+│   │   └── test.py
+│   ├── ENB_Load/
+│   │   └── test.py
+│   ├── edc/
+│   │   └── test.py
+│   └── market_forecast_data_by_provider/
+│       ├── edc/
+│       │   ├── Q2-2025 Hourly Data Base Case.xlsx
+│       │   └── test.py
+│       ├── similan/
+│       │   └── test.py
+│       └── test.py
+├── library/
+│   ├── __init__.py
+│   ├── aeso_transmission_tariff.py
+│   ├── class_objects/
+│   │   ├── __init__.py
+│   │   ├── forecast_files/
+│   │   │   ├── __init__.py
+│   │   │   ├── forcast_scenarios.yaml
+│   │   │   ├── forecast_scenario.py
+│   │   │   ├── forecast_scenario_file_structure.py
+│   │   │   └── forecast_scenario_loader.py
+│   │   ├── other_classes/
+│   │   │   ├── __init__.py
+│   │   │   └── classes.py
+│   │   └── output_files/
+│   │       ├── __init__.py
+│   │       ├── output_file.py
+│   │       ├── output_file.yaml
+│   │       ├── output_file_loader.py
+│   │       └── output_file_structure.py
+│   ├── config.py
+│   ├── create_stats_visualizations.py
+│   ├── enb_load_calcluations.py
+│   ├── file_meta_data.py
+│   ├── functions.py
+│   ├── globals.py
+│   ├── historical_spot_buckets.py
+│   ├── initializer.py
+│   ├── new_build_file_structure.py
+│   ├── process_raw_files.py
+│   ├── run_pipeline.py
+│   └── test_code/
+│       ├── __init__.py
+│       ├── dir_tree.py
+│       ├── map_annual_to_hourly.py
+│       ├── prnt_dir_tree_function.py
+│       ├── process_simulan_data.py
+│       ├── test_consolidate_fuction.py
+│       ├── test_create_file_collection.py
+│       ├── test_json.py
+│       ├── test_merit_test.py
+│       └── test_remove_dup.py
+├── outputs/
+│   ├── csv_data/
+│   │   ├── ENB_Load_Analysis_Data/
+│   │   │   └── test.py
+│   │   ├── Generator_Ouput_Data/
+│   │   │   └── test.py
+│   │   ├── edc/
+│   │   │   └── test.py
+│   │   ├── similan/
+│   │   │   └── test.py
+│   │   └── test.py
+│   ├── excel_data/
+│   │   └── test.py
+│   ├── image_data/
+│   │   └── test.py
+│   ├── json_data/
+│   │   └── test.py
+│   ├── temp_data/
+│   │   └── test.py
+│   └── test.py
+├── platform_config.py
+└── template_excel_output_files/
+    ├── annual_stats_all_years_capacity_factor.xlsx
+    └── simluation_annual_monthly_output_file_template.xlsx
